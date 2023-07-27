@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    font-family:system-ui;
+   
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  width: 9.5rem;
+  
+}
+
+
+/*hamburger container*/
+.hamburger {
+  cursor: pointer;
+  text-align: center;
+}
+
+/*hamburger bars created with css*/
+.hamburger .bar-1 {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  margin: 7px;
+  margin-right: 0;
+  transition: 0.2s ease;
+  border-radius: 2px;
+}
+

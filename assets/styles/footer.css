@@ -1,0 +1,46 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 95%;
+  margin: auto;
+  border-top: 1px solid rgb(202, 202, 202);
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  color: #212529;
+  font-size: 14px;
+
+  padding: 1rem;
+}
+
+footer ul li a {
+  color: black;
+}
+
+footer ul li img {
+  padding: 1rem;
+}
+
+footer ul .social-icons {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+
+@media screen and (min-width: 765px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .site-map-wrapper {
+    text-align: right;
+  }
+
+  footer ul .social-icons {
+    text-align: right;
+  }
+}
